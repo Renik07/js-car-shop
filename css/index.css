@@ -1,5 +1,14 @@
 :root {
 	--color-light: #f8f9fa;
+	--color-white: #fff;
+	--color-unaccent: #808080;
+
+	--spacing-small: 10px;
+	--spacing-medium: 15px;
+	--spacing-large: 30px;
+
+	--linear-gradient: linear-gradient(90deg, rgba(245,255,0,1) 0%, rgba(0,212,255,1) 100%);
+	--box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.42);
 }
 
 * {
