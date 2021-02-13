@@ -39,7 +39,7 @@ class Products {
 				<li class="products-item">
 					<span class="products-item__name">${name}</span>
 					<img class="products-item__img" src="${img}" />
-					<span class="products-item__price">💵 ${price.toLocaleString()} rub.</span>
+					<span class="products-item__price">${price.toLocaleString()} ₽</span>
 					<button class="products-item__btn ${activeClass}" onClick='products.handlSetLocationStorage(this, "${id}");'>${activeText}</button>
 				</li>
 			`;

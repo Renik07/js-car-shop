@@ -1,0 +1,35 @@
+.shop-container {
+	width: 50%;
+	min-height: 50vh;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+	padding: var(--spacing-large);
+	background-color: rgb(255, 255, 255);
+	box-shadow: var(--box-shadow);
+}
+
+.shop-element__name {
+	padding: var(--spacing-medium);
+	font-weight: bold;
+}
+
+.shop-element__price {
+	padding: var(--spacing-medium);
+	color: var(--color-unaccent);
+}
+
+.shop__close {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	right: 20px;
+	background-image: url('img/close.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	cursor: pointer;
+}
