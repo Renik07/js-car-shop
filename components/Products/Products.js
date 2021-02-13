@@ -16,7 +16,7 @@ class Products {
 			elem.innerHTML = this.labelAdd;
 		}
 
-
+		header.render(products.length);
 	}
 
 	render() {
