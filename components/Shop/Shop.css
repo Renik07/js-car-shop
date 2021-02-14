@@ -9,6 +9,7 @@
 	padding: var(--spacing-large);
 	background-color: rgb(255, 255, 255);
 	box-shadow: var(--box-shadow);
+	transition: all 2s ease;
 }
 
 .shop-element__name {
